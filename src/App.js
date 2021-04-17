@@ -9,11 +9,11 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route component={Home} path="/" />
-        <Route component={About} path="/about" />
-        <Route component={SinglePost} path="/post/:slug" />
-        <Route component={Post} path="/post" />
-        <Route component={Project} path="/project" />
+        <Route exact component={Home} path="/" />
+        <Route exact component={About} path="/about" />
+        <Route exact component={SinglePost} path="/post/:slug" />
+        <Route exact component={Post} path="/post" />
+        <Route exact component={Project} path="/project" />
       </Switch>
     </BrowserRouter>
   );
