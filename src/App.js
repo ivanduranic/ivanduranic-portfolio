@@ -6,6 +6,7 @@ import Post from "./components/Post";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact component={SinglePost} path="/post/:slug" />
         <Route exact component={Post} path="/post" />
         <Route exact component={Project} path="/project" />
+        <Route exact component={Contact} path="/contact" />
       </Switch>
       <Footer />
     </BrowserRouter>
