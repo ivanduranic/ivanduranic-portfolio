@@ -1,8 +1,8 @@
-# Personal-Portfolio
+# Personal Portfolio
 
 ## Description
 
-As a Full-Stack Web Developer, I want a deployed portfolio so that I can showcase my projects to potential clients, peers and employers. This portfolio was built with React.js, Tailwind CSS and Sanity.io.
+As a Full Stack Web Developer, I want a deployed portfolio so that I can showcase my projects to potential clients, peers and employers. This portfolio was built with React.js, Tailwind CSS and Sanity.io.
 
 ## Table of Contents
 
