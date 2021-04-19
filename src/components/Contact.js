@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex items-center h-screen w-full bg-teal-lighter">
+    <div className="flex items-center h-screen w-full bg-green-100">
       <div className="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
         <h2 className="block w-full text-center text-grey-darkest mb-6">
           Toronto, ON | Phone: +1 (437) 774-6800 | Email: ivan.duranic@gmail.com
