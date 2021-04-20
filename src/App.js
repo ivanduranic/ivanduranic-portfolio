@@ -11,9 +11,10 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <BrowserRouter>
-    <NavBar />
+      <NavBar />
       <Switch>
         <Route exact component={Home} path="/" />
+        <Route exact component={Home} path="/ivanduranic-portfolio" />
         <Route exact component={About} path="/about" />
         <Route exact component={SinglePost} path="/post/:slug" />
         <Route exact component={Post} path="/post" />
